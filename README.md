@@ -7,9 +7,9 @@ If you want to run on a different port, you can configure the endpoints in the *
 app.run(host='127.0.0.1', port=8080, debug=True)
 
 **Steps to run app:**
-git clone https://github.com/moharora8/task_master.git
-pip install flask flask_sqlalchemy
-python3 task_master/app.py
+1. git clone https://github.com/moharora8/task_master.git
+2. pip install flask flask_sqlalchemy
+3. python3 task_master/app.py
 
 **Steps to access test.db**:
 - Check whether test.db is created or not in parent folder **task_master/**. If not created, something went wrong with the above steps and you need to restry above steps.
